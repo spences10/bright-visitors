@@ -48,7 +48,7 @@ devDependencies:
     version: 5.0.0-next.262
   svelte-check:
     specifier: ^4.0.0
-    version: 4.0.5(svelte@5.0.0-next.262)(typescript@5.6.3)
+    version: 4.0.6(svelte@5.0.0-next.262)(typescript@5.6.3)
   typescript:
     specifier: ^5.5.4
     version: 5.6.3
@@ -1416,8 +1416,8 @@ packages:
       reusify: 1.0.4
     dev: true
 
-  /fdir@6.4.0:
-    resolution: {integrity: sha512-3oB133prH1o4j/L5lLW7uOCF1PlD+/It2L0eL/iAqWMB91RBbqTewABqxhj0ibBd90EEmWZq7ntIWzVaWcXTGQ==}
+  /fdir@6.4.2:
+    resolution: {integrity: sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -1795,10 +1795,6 @@ packages:
     engines: {node: '>= 14.16'}
     dev: true
 
-  /picocolors@1.1.0:
-    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
-    dev: true
-
   /picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
     dev: true
@@ -2024,8 +2020,8 @@ packages:
       has-flag: 4.0.0
     dev: true
 
-  /svelte-check@4.0.5(svelte@5.0.0-next.262)(typescript@5.6.3):
-    resolution: {integrity: sha512-icBTBZ3ibBaywbXUat3cK6hB5Du+Kq9Z8CRuyLmm64XIe2/r+lQcbuBx/IQgsbrC+kT2jQ0weVpZSSRIPwB6jQ==}
+  /svelte-check@4.0.6(svelte@5.0.0-next.262)(typescript@5.6.3):
+    resolution: {integrity: sha512-2XwmQNJaKbenJbvu5at+DuRpvF4v73Zu7f0/WkMl1O7WDm/IfF+E13t8D0nnRiRcMsNYm9ufHyLwfeMEnebpdg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:
@@ -2034,8 +2030,8 @@ packages:
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 4.0.1
-      fdir: 6.4.0
-      picocolors: 1.1.0
+      fdir: 6.4.2
+      picocolors: 1.1.1
       sade: 1.8.1
       svelte: 5.0.0-next.262
       typescript: 5.6.3
