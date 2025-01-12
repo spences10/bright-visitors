@@ -1,4 +1,5 @@
-import { turso_client } from '$lib';
+import { turso_client } from '$lib/db';
+import { create_or_update_session } from '$lib/reporting';
 import type { Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
 
@@ -19,48 +20,36 @@ const log_request_data: Handle = async ({ event, resolve }) => {
 	const response_status = response.status;
 
 	try {
-		const client = turso_client();
-		await client.execute({
-			sql: `
-				INSERT INTO user_session (ip_address, user_agent, referrer, session_start) 
-					VALUES (?, ?, ?, ?)
-			`,
-			args: [
-				ip_address,
-				user_agent,
-				referrer,
-				new Date().toISOString(),
-			],
-		});
-
-		const session_result = await client.execute(
-			'SELECT last_insert_rowid() as session_id',
+		const session_id = await create_or_update_session(
+			ip_address,
+			user_agent,
+			referrer,
 		);
 
-		const session_id = session_result.rows[0].session_id;
+		if (session_id !== null) {
+			const client = turso_client();
+			await client.execute({
+				sql: `INSERT INTO page_visits (session_id, slug, load_time, content_type, request_type) 
+                      VALUES (?, ?, ?, ?, ?)`,
+				args: [
+					session_id,
+					url_path,
+					load_time,
+					content_type,
+					'subsequent',
+				],
+			});
 
-		await client.execute({
-			sql: `
-				INSERT INTO page_visits (session_id, slug, load_time, content_type, request_type) 
-        VALUES (?, ?, ?, ?, ?)
-			`,
-			args: [
+			console.log('Request logged to database:', {
 				session_id,
+				ip_address,
 				url_path,
-				load_time,
-				content_type,
-				'initial',
-			],
-		});
-
-		// Log additional data as needed
-		console.log('Request logged to database:', {
-			session_id,
-			ip_address,
-			url_path,
-			http_method,
-			response_status,
-		});
+				http_method,
+				response_status,
+			});
+		} else {
+			console.error('Failed to create or update session');
+		}
 	} catch (error) {
 		console.error('Error logging request data:', error);
 	}
