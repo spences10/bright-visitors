@@ -5,7 +5,7 @@ import { mdsvex } from 'mdsvex';
 const config = {
 	preprocess: [vitePreprocess(), mdsvex()],
 	kit: { adapter: adapter() },
-	extensions: ['.svelte', '.md']
+	extensions: ['.svelte', '.md'],
 };
 
 export default config;
