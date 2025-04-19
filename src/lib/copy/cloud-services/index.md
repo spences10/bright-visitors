@@ -12,9 +12,9 @@ pricing, features, and customer satisfaction.
 
 ## Providers
 
-- [CloudMosaic](./cloudmosaic.md)
-- [Nebulynx](./nebulynx.md)
-- [SkyForge](./skyforge.md)
+- [CloudMosaic](/services/cloud-services/cloudmosaic)
+- [Nebulynx](/services/cloud-services/nebulynx)
+- [SkyForge](/services/cloud-services/skyforge)
 
 ## How to Choose a Cloud Provider
 

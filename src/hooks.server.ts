@@ -1,60 +1,44 @@
-import { turso_client } from '$lib/db';
-import { create_or_update_session } from '$lib/reporting';
+import {
+	create_or_update_session,
+	record_page_visit,
+} from '$lib/reporting';
 import type { Handle } from '@sveltejs/kit';
-import { sequence } from '@sveltejs/kit/hooks';
 
-const log_request_data: Handle = async ({ event, resolve }) => {
-	const start_time = Date.now();
-	const response = await resolve(event);
-	const end_time = Date.now();
-
+export const handle: Handle = async ({ event, resolve }) => {
+	// Get user info from request
 	const ip_address = event.getClientAddress();
-	const user_agent =
-		event.request.headers.get('user-agent') || 'Unknown';
-	const referrer = event.request.headers.get('referer') || 'Unknown';
-	const url_path = event.url.pathname;
-	const load_time = end_time - start_time;
-	const content_type =
-		response.headers.get('content-type') || 'Unknown';
-	const http_method = event.request.method;
-	const response_status = response.status;
+	const user_agent = event.request.headers.get('user-agent');
+	const referrer = event.request.headers.get('referer');
 
 	try {
+		// Track session
 		const session_id = await create_or_update_session(
 			ip_address,
 			user_agent,
 			referrer,
 		);
 
-		if (session_id !== null) {
-			const client = turso_client();
-			await client.execute({
-				sql: `INSERT INTO page_visits (session_id, slug, load_time, content_type, request_type) 
-                      VALUES (?, ?, ?, ?, ?)`,
-				args: [
-					session_id,
-					url_path,
-					load_time,
-					content_type,
-					'subsequent',
-				],
-			});
+		// Resolve the request first
+		const response = await resolve(event);
 
-			console.log('Request logged to database:', {
+		// After response is generated, record the page visit
+		if (session_id) {
+			const url = new URL(event.request.url);
+			const slug = url.pathname;
+
+			await record_page_visit({
 				session_id,
-				ip_address,
-				url_path,
-				http_method,
-				response_status,
+				slug,
+				request_type: 'initial',
+				content_type:
+					response.headers.get('content-type') || undefined,
 			});
-		} else {
-			console.error('Failed to create or update session');
 		}
+
+		return response;
 	} catch (error) {
-		console.error('Error logging request data:', error);
+		console.error('Error in hooks.server.ts:', error);
+		// Continue with the request even if tracking fails
+		return await resolve(event);
 	}
-
-	return response;
 };
-
-export const handle = sequence(log_request_data);

@@ -1,0 +1,16 @@
+/* Custom styles for markdown content */
+.prose-container {
+	@apply prose prose-lg max-w-none mx-auto px-4;
+	@apply prose-headings:font-bold prose-headings:text-primary;
+	@apply prose-a:text-secondary prose-a:no-underline hover:prose-a:underline;
+	@apply prose-img:rounded-lg prose-img:mx-auto;
+	@apply prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:pl-4 prose-blockquote:italic;
+	@apply prose-table:table-auto prose-table:w-full;
+	@apply prose-th:bg-base-200 prose-th:p-2;
+	@apply prose-td:p-2 prose-td:border prose-td:border-base-300;
+}
+
+/* Dark mode adjustments */
+.dark .prose-container {
+	@apply prose-invert;
+}

@@ -1,18 +1,19 @@
 ---
 title: 'Tech Services Directory'
-description: 'Explore our comprehensive directory of tech service providers.'
+description:
+  'Explore our comprehensive directory of tech service providers.'
 ---
 
 # Services Directory
 
 Browse our categories of technology services:
 
-- [AI Development](./ai-development)
-- [Cloud Services](./cloud-services)
-- [Cybersecurity](./cybersecurity)
-- [Data Analytics](./data-analytics)
-- [DevOps](./devops)
-- [Mobile App Development](./mobile-app-development)
-- [Web Development](./web-development)
+- [AI Development](/services/ai-development)
+- [Cloud Services](/services/cloud-services)
+- [Cybersecurity](/services/cybersecurity)
+- [Data Analytics](/services/data-analytics)
+- [DevOps](/services/devops)
+- [Mobile App Development](/services/mobile-app-development)
+- [Web Development](/services/web-development)
 
 Each category features top-rated providers, detailed comparisons, and verified reviews.

@@ -12,9 +12,9 @@ pricing, features, and customer satisfaction.
 
 ## Providers
 
-- [DataVibe](./datavibe.md)
-- [InsightNest](./insightnest.md)
-- [MetricForge](./metricforge.md)
+- [DataVibe](/services/data-analytics/datavibe)
+- [InsightNest](/services/data-analytics/insightnest)
+- [MetricForge](/services/data-analytics/metricforge)
 
 ## How to Choose a Data Analytics Provider
 

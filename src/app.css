@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* Import custom styles */
+@import './lib/styles/prose.css';
+
 /* Plugin configurations */
 @plugin "@tailwindcss/typography";
 @plugin "daisyui" {

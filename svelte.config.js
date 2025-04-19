@@ -6,7 +6,9 @@ import rehypeExternalLinks from 'rehype-external-links';
 import slugPlugin from 'rehype-slug';
 
 const config = {
-	preprocess: [vitePreprocess(), mdsvex({
+	preprocess: [
+		vitePreprocess(),
+		mdsvex({
 			extensions: ['.md'],
 			smartypants: true,
 			rehypePlugins: [
@@ -22,7 +24,8 @@ const config = {
 					{ target: '_blank', rel: 'noopener noreferrer' },
 				],
 			],
-		})],
+		}),
+	],
 	kit: { adapter: adapter() },
 	extensions: ['.svelte', '.md'],
 };

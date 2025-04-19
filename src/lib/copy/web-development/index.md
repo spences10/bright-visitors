@@ -12,9 +12,9 @@ pricing, features, and customer satisfaction.
 
 ## Agencies
 
-- [WebCore](./webcore.md)
-- [DevNest](./devnest.md)
-- [SiteForge](./siteforge.md)
+- [WebCore](/services/web-development/webcore)
+- [DevNest](/services/web-development/devnest)
+- [SiteForge](/services/web-development/siteforge)
 
 ## How to Choose a Web Development Agency
 

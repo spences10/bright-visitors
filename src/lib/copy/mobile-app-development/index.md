@@ -12,9 +12,9 @@ Compare pricing, features, and customer satisfaction.
 
 ## Agencies
 
-- [AppForge](./appforge.md)
-- [Mobinest](./mobinest.md)
-- [DevMobile](./devmobile.md)
+- [AppForge](/services/mobile-app-development/appforge)
+- [Mobinest](/services/mobile-app-development/mobinest)
+- [DevMobile](/services/mobile-app-development/devmobile)
 
 ## How to Choose a Mobile App Development Agency
 

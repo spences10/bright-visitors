@@ -1,7 +1,10 @@
 <script lang="ts">
+	import Layout from '$lib/components/layout.svelte';
 	import '../app.css';
 
 	let { children } = $props();
 </script>
 
-{@render children()}
+<Layout>
+	{@render children()}
+</Layout>

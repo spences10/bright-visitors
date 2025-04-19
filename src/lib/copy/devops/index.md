@@ -12,9 +12,9 @@ features, and customer satisfaction.
 
 ## Providers
 
-- [DevPulse](./devpulse.md)
-- [OpsNest](./opsnest.md)
-- [DeployForge](./deployforge.md)
+- [DevPulse](/services/devops/devpulse)
+- [OpsNest](/services/devops/opsnest)
+- [DeployForge](/services/devops/deployforge)
 
 ## How to Choose a DevOps Provider
 

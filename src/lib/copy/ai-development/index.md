@@ -12,9 +12,9 @@ pricing, features, and customer satisfaction.
 
 ## Providers
 
-- [SynthAIQ](./synthaiq.md)
-- [MindNest](./mindnest.md)
-- [DeepForge](./deepforge.md)
+- [SynthAIQ](/services/ai-development/synthaiq)
+- [MindNest](/services/ai-development/mindnest)
+- [DeepForge](/services/ai-development/deepforge)
 
 ## How to Choose an AI Development Partner
 
