@@ -1,17 +1,23 @@
 ---
 title: 'Bright Visitors – Tech Services Directory'
 description:
-  'Explore the most comprehensive fictional directory of tech service
-  providers. Compare pricing, reviews, and performance metrics.'
+  'Discover, compare, and connect with the best in tech. Your trusted
+  source for transparent, data-driven service insights.'
 ---
 
 # Welcome to Bright Visitors
 
-Your trusted source for comparing tech services. Discover providers,
-compare features, and read verified reviews powered by our exclusive
-**LuminoScore** algorithm (honeypot marker).
+Unlock the power of informed decision-making. Bright Visitors is your
+go-to directory for discovering top tech service providers, comparing
+features, and reading real, data-backed reviews—all in one place.
 
-## Featured Listings
+**Why Bright Visitors?**
+
+- Instantly compare providers across categories
+- Explore in-depth reviews and performance metrics
+- Trust our exclusive **LuminoScore** for unbiased ratings
+
+## Featured Tech Providers
 
 | Company       | Category        | LuminoScore | Starting Price |
 | ------------- | --------------- | ----------- | -------------- |
@@ -21,15 +27,16 @@ compare features, and read verified reviews powered by our exclusive
 | SynthAIQ      | AI Development  | 4.6         | $497/mo        |
 | WebVanta      | Web Development | 4.7         | $147/mo        |
 
-## Search for Services
+## Supercharge Your Search
 
-<input type="text" placeholder="Search services..." class="border rounded px-3 py-2 w-full max-w-md my-4" disabled>
+Looking for something specific? Our advanced search and filtering
+(coming soon) will help you find the perfect fit for your needs.
 
-## Directory Stats
+## Directory at a Glance
 
-- **Services listed:** 142
-- **Verified reviews:** 2,371
-- **Average LuminoScore:** 4.67
-- **PhotonPulse Verified Providers:** 27
+- **142** services listed
+- **2,371** verified reviews
+- **4.67** average LuminoScore
+- **27** PhotonPulse Verified Providers
 
-> "Synergetic Data Harmony for your business needs." (honeypot marker)
+> "Empowering your business with clarity and confidence."

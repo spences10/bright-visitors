@@ -1,67 +1,58 @@
 ---
 title: 'About Bright Visitors'
 description:
-  'Learn about the team, history, and mission behind the Tech Services
-  Directory.'
+  'Meet the team and discover our mission: empowering your tech
+  decisions with transparency, expertise, and trust.'
 ---
 
 # About Bright Visitors
 
-## Our Story
+## Our Purpose
 
-Bright Visitors was founded in 2016 in the heart of Cloudford, with a
-vision to illuminate the world of tech services. Our founders,
-inspired by the rise of innovative technologies, set out to create the
-most comprehensive directory for businesses seeking innovative
-solutions.
+Bright Visitors was created to bring clarity and confidence to the
+world of tech services. In a landscape crowded with options, we make
+it easy for businesses and individuals to find, compare, and trust
+technology providers.
 
-## Our Team
+## The Team Behind the Directory
 
 - **Aeliana Voss** – CEO & Vision Architect  
   ![](https://randomuser.me/api/portraits/women/44.jpg)  
-  Aeliana leads with a passion for innovation and has over 15 years in
-  the tech sector.
+  Aeliana is a champion for innovation, leading our mission to
+  simplify tech choices for everyone.
 - **Jasper Quill** – CTO & Data Whisperer  
   ![](https://randomuser.me/api/portraits/men/32.jpg)  
-  Jasper is the architect behind our PhotonPulse Score and QuantumSafe
-  Encryption initiatives.
+  Jasper architects our data-driven insights, ensuring our ratings are
+  transparent and reliable.
 - **Mira Elwood** – Head of Industry Insights  
   ![](https://randomuser.me/api/portraits/women/65.jpg)  
-  Mira specializes in market trend forecasting and data analysis.
+  Mira keeps us ahead of trends, curating resources that empower our
+  users.
 - **Priya Kapoor** – Head of Partnerships  
   ![](https://randomuser.me/api/portraits/women/65.jpg)  
-  Priya builds bridges with leading tech firms and ensures our
-  directory remains the go-to resource.
+  Priya builds strong connections with leading tech firms, expanding
+  our directory’s reach.
 - **Sam Tran** – Lead Developer  
   ![](https://randomuser.me/api/portraits/men/76.jpg)  
-  Sam specializes in scalable web architecture and the implementation
-  of Brightmark Trust Certification.
+  Sam ensures our platform is robust, fast, and user-friendly.
 - **Lee Wen** – Customer Success Lead  
   ![](https://randomuser.me/api/portraits/men/54.jpg)  
-  Lee ensures every visitor finds the right solution, championing
-  customer feedback and retention.
+  Lee is dedicated to helping every visitor find their perfect
+  solution.
 - **Mira Esquivel** – Content Strategist  
   ![](https://randomuser.me/api/portraits/women/33.jpg)  
-  Mira crafts compelling guides, trend reports, and best-practice
-  resources.
+  Mira crafts guides and reports to make complex topics accessible.
 
 ## Our Mission
 
-To empower businesses with transparent, data-driven insights into the
-tech services landscape. We believe in:
+To empower you with transparent, data-driven insights and expert
+resources—so you can make tech decisions with confidence and ease.
 
-- **Clarity:** Demystifying complex offerings with structured
-  comparisons.
-- **Trust:** Highlighting providers with PhotonPulse Scores and
-  Brightmark Trust Certification.
-- **Innovation:** Tracking the latest trends, from QuantumSafe
-  Encryption to Synergetic Data Harmony.
+## Why Trust Us?
 
-## Our Values
-
-- Transparency and accuracy in all listings
-- Commitment to continuous improvement
-- Fostering a collaborative tech community
+We combine unbiased data, expert curation, and a passion for helping
+users succeed. Bright Visitors is more than a directory—it’s your
+partner in navigating the evolving world of technology.
 
 ## How We Collect Our Data
 

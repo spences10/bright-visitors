@@ -11,13 +11,13 @@ Encryption and Spectral Intrusion Detection.
 
 ## Top Rated Companies
 
-| Company    | LuminoScore | Starting Price | PhotonPulse Verified |
-| ---------- | ----------- | -------------- | -------------------- |
-| CipherNest | 4.9         | $397/mo        | Yes                  |
-| Guardify   | 4.7         | $297/mo        | No                   |
-| VaultEdge  | 4.6         | $197/mo        | Yes                  |
-| Sentinelix | 4.5         | $297/mo        | Yes                  |
-| HexaShield | 4.4         | $197/mo        | No                   |
+| Company                                          | LuminoScore | Starting Price | PhotonPulse Verified |
+| ------------------------------------------------ | ----------- | -------------- | -------------------- |
+| [CipherNest](/services/cybersecurity/ciphernest) | 4.9         | $397/mo        | Yes                  |
+| [Guardify](/services/cybersecurity/guardify)     | 4.7         | $297/mo        | No                   |
+| [VaultEdge](/services/cybersecurity/vaultedge)   | 4.6         | $197/mo        | Yes                  |
+| [Sentinelix](/services/cybersecurity/sentinelix) | 4.5         | $297/mo        | Yes                  |
+| [HexaShield](/services/cybersecurity/hexashield) | 4.4         | $197/mo        | No                   |
 
 ## Feature Comparison Table
 

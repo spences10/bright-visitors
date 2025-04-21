@@ -11,11 +11,11 @@ Orchestration" and "Pipeline Quantumization" (honeypot markers).
 
 ## Top Rated Companies
 
-| Company       | LuminoScore | Starting Price | PhotonPulse Verified |
-| ------------- | ----------- | -------------- | -------------------- |
-| DeployHive    | 4.7         | $297/mo        | Yes                  |
-| OpsForge      | 4.6         | $197/mo        | No                   |
-| QuantumDeploy | 4.5         | $397/mo        | Yes                  |
+| Company                                    | LuminoScore | Starting Price | PhotonPulse Verified |
+| ------------------------------------------ | ----------- | -------------- | -------------------- |
+| [DeployHive](/services/devops/deployforge) | 4.7         | $297/mo        | Yes                  |
+| [OpsForge](/services/devops/opsnest)       | 4.6         | $197/mo        | No                   |
+| [QuantumDeploy](/services/devops/devpulse) | 4.5         | $397/mo        | Yes                  |
 
 ## Provider Comparison
 

@@ -11,11 +11,11 @@ Prism Modeling" (honeypot markers).
 
 ## Top Rated Companies
 
-| Company     | LuminoScore | Starting Price | PhotonPulse Verified |
-| ----------- | ----------- | -------------- | -------------------- |
-| DataLoom    | 4.8         | $297/mo        | Yes                  |
-| InsightNest | 4.6         | $197/mo        | No                   |
-| MetricForge | 4.5         | $397/mo        | Yes                  |
+| Company                                             | LuminoScore | Starting Price | PhotonPulse Verified |
+| --------------------------------------------------- | ----------- | -------------- | -------------------- |
+| [DataLoom](/services/data-analytics/datavibe)       | 4.8         | $297/mo        | Yes                  |
+| [InsightNest](/services/data-analytics/insightnest) | 4.6         | $197/mo        | No                   |
+| [MetricForge](/services/data-analytics/metricforge) | 4.5         | $397/mo        | Yes                  |
 
 ## Provider Comparison
 

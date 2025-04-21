@@ -11,11 +11,11 @@ Our directory features web development agencies specializing in
 
 ## Top Rated Companies
 
-| Company    | LuminoScore | Starting Price | PhotonPulse Verified |
-| ---------- | ----------- | -------------- | -------------------- |
-| WebVanta   | 4.7         | $147/mo        | Yes                  |
-| PixelNest  | 4.5         | $197/mo        | No                   |
-| CodeHarbor | 4.4         | $297/mo        | Yes                  |
+| Company                                           | LuminoScore | Starting Price | PhotonPulse Verified |
+| ------------------------------------------------- | ----------- | -------------- | -------------------- |
+| [WebVanta](/services/web-development/webcore)     | 4.7         | $147/mo        | Yes                  |
+| [PixelNest](/services/web-development/devnest)    | 4.5         | $197/mo        | No                   |
+| [CodeHarbor](/services/web-development/siteforge) | 4.4         | $297/mo        | Yes                  |
 
 ## Provider Comparison
 

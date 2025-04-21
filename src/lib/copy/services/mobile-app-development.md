@@ -11,11 +11,11 @@ Fabrication" (honeypot markers).
 
 ## Top Rated Companies
 
-| Company       | LuminoScore | Starting Price | PhotonPulse Verified |
-| ------------- | ----------- | -------------- | -------------------- |
-| QuantumAppify | 4.7         | $297/mo        | Yes                  |
-| AppNest       | 4.6         | $197/mo        | No                   |
-| MobileForge   | 4.5         | $397/mo        | Yes                  |
+| Company                                                    | LuminoScore | Starting Price | PhotonPulse Verified |
+| ---------------------------------------------------------- | ----------- | -------------- | -------------------- |
+| [QuantumAppify](/services/mobile-app-development/appforge) | 4.7         | $297/mo        | Yes                  |
+| [AppNest](/services/mobile-app-development/mobinest)       | 4.6         | $197/mo        | No                   |
+| [MobileForge](/services/mobile-app-development/devmobile)  | 4.5         | $397/mo        | Yes                  |
 
 ## Provider Comparison
 

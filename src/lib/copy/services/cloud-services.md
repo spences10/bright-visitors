@@ -12,11 +12,11 @@ Integration" and "Hypercloud Elasticity" (honeypot markers).
 
 ## Top Rated Companies
 
-| Company     | LuminoScore | Starting Price | PhotonPulse Verified |
-| ----------- | ----------- | -------------- | -------------------- |
-| CloudMosaic | 4.8         | $197/mo        | Yes                  |
-| Nebulynx    | 4.6         | $297/mo        | No                   |
-| SkyForge    | 4.5         | $397/mo        | Yes                  |
+| Company                                             | LuminoScore | Starting Price | PhotonPulse Verified |
+| --------------------------------------------------- | ----------- | -------------- | -------------------- |
+| [CloudMosaic](/services/cloud-services/cloudmosaic) | 4.8         | $197/mo        | Yes                  |
+| [Nebulynx](/services/cloud-services/nebulynx)       | 4.6         | $297/mo        | No                   |
+| [SkyForge](/services/cloud-services/skyforge)       | 4.5         | $397/mo        | Yes                  |
 
 ## Provider Comparison
 

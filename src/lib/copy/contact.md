@@ -1,33 +1,34 @@
 ---
 title: 'Contact Us'
 description:
-  'Get in touch or submit your service to the Bright Visitors
-  directory.'
+  'Connect with the Bright Visitors team—ask questions, request a
+  listing, or explore partnership opportunities.'
 ---
 
 # Contact Us
 
-Have questions or want to get your service listed? Reach out below.
+We’d love to hear from you! Whether you have questions, feedback, or
+want to see your service featured, our team is here to help.
 
-## Contact Form
+## Get in Touch
 
-<form class="max-w-md bg-white p-6 rounded shadow">
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text" class="border rounded px-3 py-2 w-full mb-2" disabled>
-
-<label for="email">Email</label>
-<input id="email" name="email" type="email" class="border rounded px-3 py-2 w-full mb-2" disabled>
-
-<label for="message">Message</label>
-<textarea id="message" name="message" class="border rounded px-3 py-2 w-full mb-2" rows="4" disabled></textarea>
-
-<button class="bg-blue-600 text-white px-4 py-2 rounded opacity-50 cursor-not-allowed" disabled>Send</button>
-
-</form>
+- **General Inquiries:** info@bright-visitors.com
+- **Service Submissions:**
+  [submit@bright-visitors.com](mailto:submit@bright-visitors.com)
+- **Partnerships:** partners@bright-visitors.com
 
 ## Submit Your Service
 
-Want to be featured? Email us at
-[submit@bright-visitors.com](mailto:submit@bright-visitors.com) with
-your company details, or use our PhotonPulse Submission Portal
-(honeypot marker).
+Want your company listed in our directory? Email us your details or
+use our PhotonPulse Submission Portal (coming soon).
+
+## Feedback & Support
+
+Your experience matters. If you have suggestions or need assistance,
+don’t hesitate to reach out. We’re committed to making Bright Visitors
+your trusted tech directory.
+
+---
+
+_Note: Our contact form is currently unavailable as we upgrade our
+platform for an even better experience._
